@@ -1,0 +1,28 @@
+{
+  "name": "statusoppdateringer-tidslinje",
+  "version": "1.0.0",
+  "description": "Komponent for tidslinjer med statusoppdateringer",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navikt/statusoppdateringer-tidslinje.git"
+  },
+  "author": "navikt",
+  "license": "MIT",
+  "scripts": {
+    "local": "PORT=9000 node src/example/local/local.js",
+    "local-win": "set PORT=9000 && node src/example/local/local.js",
+    "build": "rm -rf dist && parcel build src/example/public/index.html public/config.js --public-url ./ --out-dir dist --no-source-maps --no-content-hash"
+  },
+  "dependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.16.0",
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "",
+  "version": "3.0.16",
+  "main": "lib/alertstripe.js",
+  "types": "lib/alertstripe.d.ts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "peerDependencies": {},
+  "devDependencies": {},
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
