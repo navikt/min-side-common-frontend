@@ -1,7 +1,7 @@
 # dependencies
 /node_modules
-/src/example/node_modules
-/src/package/node_modules
+/example/node_modules
+/package/node_modules
 /dist
 /.cache
 

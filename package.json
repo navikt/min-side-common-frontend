@@ -10,9 +10,9 @@
   "author": "navikt",
   "license": "MIT",
   "scripts": {
-    "local": "PORT=9000 node src/example/local/local.js",
-    "local-win": "set PORT=9000 && node src/example/local/local.js",
-    "build": "rm -rf dist && parcel build src/example/public/index.html public/config.js --public-url ./ --out-dir dist --no-source-maps --no-content-hash"
+    "local": "PORT=9000 node example/local/local.js",
+    "local-win": "set PORT=9000 && node example/local/local.js",
+    "build": "rm -rf dist && parcel build example/public/index.html public/config.js --public-url ./ --out-dir dist --no-source-maps --no-content-hash"
   },
   "dependencies": {
     "react": "^16.13.1"
