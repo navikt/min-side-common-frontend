@@ -1,6 +1,6 @@
 import React from 'react';
 
-const IkonAdvarsel = () => (
+const Advarsel = () => (
   <svg
     width="24px"
     height="24px"
@@ -34,4 +34,4 @@ const IkonAdvarsel = () => (
   </svg>
 );
 
-export default IkonAdvarsel;
+export default Advarsel;

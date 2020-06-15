@@ -1,6 +1,6 @@
 import React from 'react';
 
-const IkonFerdig = () => (
+const Ferdig = () => (
   <svg
     width="24px"
     height="24px"
@@ -31,4 +31,4 @@ const IkonFerdig = () => (
   </svg>
 );
 
-export default IkonFerdig;
+export default Ferdig;
