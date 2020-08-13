@@ -1,2 +1,56 @@
-{
-}
+[
+  {
+    "tidspunkt": "2020-03-13T08:53:17.47Z",
+    "link": "https://www.nav.no/enNyLenke",
+    "sikkerhetsnivaa": 4,
+    "statusGlobal": "SENDT",
+    "statusIntern": null,
+    "sakstema": "Arbeidsavklaringspenger"
+  },
+  {
+    "tidspunkt": "2020-03-13T08:53:17.47Z",
+    "link": "https://www.nav.no/enNyLenke",
+    "sikkerhetsnivaa": 4,
+    "statusGlobal": "MOTATT",
+    "statusIntern": null,
+    "sakstema": "Arbeidsavklaringspenger"
+  },
+  {
+    "tidspunkt": "2020-03-13T08:53:17.47Z",
+    "link": "https://www.nav.no/enNyLenke",
+    "sikkerhetsnivaa": 4,
+    "statusGlobal": "UNDER_BEHANDLING",
+    "statusIntern": null,
+    "sakstema": "Arbeidsavklaringspenger"
+  },
+  {
+    "tidspunkt": "2020-03-13T08:53:17.47Z",
+    "link": "https://www.nav.no/enNyLenke",
+    "sikkerhetsnivaa": 4,
+    "statusGlobal": "FERDIG",
+    "statusIntern": null,
+    "sakstema": "Arbeidsavklaringspenger"
+  },
+  {
+    "tidspunkt": "2020-03-13T08:53:17.47Z",
+    "link": "https://www.nav.no/enNyLenke",
+    "sikkerhetsnivaa": 4,
+    "statusGlobal": "MOTTAT",
+    "statusIntern": null,
+    "sakstema": "Arbeidsavklaringspenger"
+  },
+  {
+    "type": "Beskjed",
+    "eventTidspunkt": "2020-03-13T08:53:17.47Z",
+    "tekst": "Vi mottok søknaden din 18. september 2019. Du kan følge med på statusen her.",
+    "link": "https://www.nav.no/enNyLenke",
+    "sikkerhetsnivaa": 4
+  },
+  {
+    "type": "Oppgave",
+    "eventTidspunkt": "2020-03-13T08:53:17.47Z",
+    "tekst": "Du må sende inn et vedlegg i søknaden din om Arbeidsavklaringspenger.",
+    "link": "https://www.nav.no/enNyLenke",
+    "sikkerhetsnivaa": 4
+  }
+]
