@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 
-const Ferdig = () => (
+const Ferdig = (): ReactElement => (
   <svg
     width="24px"
     height="24px"

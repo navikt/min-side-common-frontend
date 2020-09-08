@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 
-const CheckInformationsIcon = () => (
+const Informasjon = (): ReactElement => (
   <svg
     width="24px"
     height="24px"
@@ -37,4 +37,4 @@ const CheckInformationsIcon = () => (
   </svg>
 );
 
-export default CheckInformationsIcon;
+export default Informasjon;
