@@ -13,15 +13,21 @@
     "enzyme": "^3.10.0",
     "less": "^3.12.2",
     "less-loader": "^7.0.1",
-    "nav-frontend-core": "^5.0.1",
-    "nav-frontend-paneler": "^2.0.10",
-    "nav-frontend-paneler-style": "^0.3.21",
-    "nav-frontend-typografi": "^2.0.26",
-    "nav-frontend-typografi-style": "^1.0.22",
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0",
     "typescript": "3.6.4"
+  },
+  "dependencies": {
+    "less-plugin-npm-import": "^2.1.0",
+    "nav-frontend-core": "^5.0.1",
+    "nav-frontend-paneler": "^2.0.10",
+    "nav-frontend-paneler-style": "^0.3.21",
+    "nav-frontend-typografi": "^2.0.26",
+    "nav-frontend-typografi-style": "^1.0.22"
+  },
+  "scripts": {
+    "build": "lessc --npm-import=\"prefix=~\" src/index.less src/index.css"
   }
 }

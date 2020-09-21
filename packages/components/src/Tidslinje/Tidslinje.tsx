@@ -2,7 +2,7 @@ import React, { ReactElement } from 'react';
 import Panel from 'nav-frontend-paneler';
 
 const Tidslinje = (): ReactElement => (
-  <Panel>
+  <Panel border>
       Tidslinje
   </Panel>
 );
