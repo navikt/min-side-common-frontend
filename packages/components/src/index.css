@@ -1,0 +1,16 @@
+.panel {
+  background-color: #FFF;
+  display: block;
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 4px;
+}
+.panel--stor {
+  background-color: #FFF;
+  display: block;
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 4px;
+  padding: 1.25rem 1rem 1.25rem 1rem;
+}
+.panel--border {
+  border: 1px solid #C6C2BF;
+}
