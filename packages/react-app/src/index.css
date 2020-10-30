@@ -1,0 +1,19 @@
+body {
+  background: #E9E7E7;
+  min-height: 100%;
+  padding: 4rem 2rem;
+  margin: 0;
+}
+
+
+.app {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .app {
+    max-width: 100%;
+  }
+}
+
