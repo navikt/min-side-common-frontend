@@ -69,11 +69,10 @@ const Sekvens = ({ tekst }: SekvensProps) => (
   </div>
 );
 
-
 const Tidslinje = ({ notifikasjoner, forventninger }: TidslinjeProps): ReactElement => (
   <Panel border>
     <div className="tidslinje-container">
-      {forventninger && forventninger.map((tekst) => (
+      {forventninger?.map((tekst) => (
         <Sekvens key={tekst} tekst={tekst} />
       ))}
       {notifikasjoner.map((notifikasjon: any) => (
