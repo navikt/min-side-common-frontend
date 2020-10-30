@@ -83,7 +83,7 @@ const notifikasjoner = [
 ];
 
 const App = (): ReactElement => (
-  <div className="App">
+  <div className="app">
     <Tidslinje notifikasjoner={notifikasjoner} forventninger={forventninger} />
   </div>
 );
