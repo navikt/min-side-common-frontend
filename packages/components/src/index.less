@@ -3,3 +3,60 @@
 
 @import '../../node_modules/nav-frontend-paneler-style/src/index';
 
+.sekvens-med-ikon {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1.35em;
+  position: relative;
+
+  &__ikon {
+    padding-right: 0.65em;
+    z-index: 2;
+  }
+}
+
+.sekvens-med-ikon:last-child {
+  padding-bottom: 0;
+}
+
+.sekvens-med-ikon::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0.65rem;
+  border: black solid 0.5px ;
+}
+
+.sekvens-uten-ikon {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1.35em;
+  position: relative;
+
+  &__tekst {
+    padding-left: 2.15em;
+  }
+}
+
+.sekvens-uten-ikon::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10px;
+  border: black dashed 0.5px ;
+}
+
+.sekvens-uten-ikon::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1.45px dashed black;
+  background-color: white;
+}
