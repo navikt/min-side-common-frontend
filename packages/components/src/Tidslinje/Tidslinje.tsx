@@ -34,13 +34,13 @@ const tidslinjeIkon = (type: string) => {
 const tidslinjeText = (notifikasjon: any) => {
   switch (notifikasjon.statusGlobal) {
     case 'SENDT':
-      return 'sendt';
+      return 'Status i saken din: Sendt';
     case 'MOTTATT':
       return 'Status i saken din: Mottatt';
     case 'UNDER_BEHANDLING':
-      return 'under behandling';
+      return 'Ny status i saken din: Under behandling';
     case 'FERDIG':
-      return 'ferdig';
+      return 'Saken din er ferdig behandlet: Godkjent';
     default:
       return notifikasjon.tekst;
   }
