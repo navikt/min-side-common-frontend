@@ -5,17 +5,18 @@ import Advarsel from './Advarsel';
 import Informasjon from './Informasjon';
 import Ferdig from './Ferdig';
 
-interface Props {
-  notifikasjon: any;
-}
 
 export interface TidslinjeProps {
   notifikasjoner: any;
   forventninger?: string[];
 }
 
-export interface SekvensProps {
+export interface SekvensUtenIkonProps {
   tekst: string;
+}
+
+interface SekvensMedIkonProps {
+  notifikasjon: any;
 }
 
 const tidslinjeIkon = (type: string) => {
@@ -46,7 +47,7 @@ const tidslinjeText = (notifikasjon: any) => {
   }
 };
 
-const SekvensMedIkon = ({ notifikasjon }: Props): ReactElement => (
+const SekvensMedIkon = ({ notifikasjon }: SekvensMedIkonProps): ReactElement => (
   <div className="sekvens-med-ikon">
     <div className="sekvens-med-ikon__ikon">
       {tidslinjeIkon(notifikasjon.type)}
@@ -59,7 +60,7 @@ const SekvensMedIkon = ({ notifikasjon }: Props): ReactElement => (
   </div>
 );
 
-const Sekvens = ({ tekst }: SekvensProps) => (
+const SekvensUtenIkon = ({ tekst }: SekvensUtenIkonProps) => (
   <div className="sekvens-uten-ikon">
     <div className="sekvens-uten-ikon__tekst">
       <Normaltekst>
@@ -73,7 +74,7 @@ const Tidslinje = ({ notifikasjoner, forventninger }: TidslinjeProps): ReactElem
   <Panel border>
     <div className="tidslinje-container">
       {forventninger?.map((tekst) => (
-        <Sekvens key={tekst} tekst={tekst} />
+        <SekvensUtenIkon key={tekst} tekst={tekst} />
       ))}
       {notifikasjoner.map((notifikasjon: any) => (
         <SekvensMedIkon notifikasjon={notifikasjon} />
