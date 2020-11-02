@@ -3,7 +3,7 @@ import Panel from 'nav-frontend-paneler';
 import { Normaltekst } from 'nav-frontend-typografi';
 import Advarsel from './Advarsel';
 import Informasjon from './Informasjon';
-import Ferdig from './Ferdig';
+import Status from './Status';
 
 
 export interface TidslinjeProps {
@@ -26,7 +26,7 @@ const tidslinjeIkon = (type: string) => {
     case 'Oppgave':
       return <Advarsel />;
     case 'Statusoppdatering':
-      return <Ferdig />;
+      return <Status />;
     default:
       return null;
   }

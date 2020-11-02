@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react';
 
-const Ferdig = (): ReactElement => (
+const Status = (): ReactElement => (
   <svg
     width="24px"
     height="24px"
@@ -31,4 +31,4 @@ const Ferdig = (): ReactElement => (
   </svg>
 );
 
-export default Ferdig;
+export default Status;
