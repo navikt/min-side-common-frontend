@@ -1,5 +1,5 @@
 {
-  "name": "@namespace/components",
+  "name": "@navikt/dittnav-tidslinje",
   "version": "0.2.0",
   "private": true,
   "main": "src/",
