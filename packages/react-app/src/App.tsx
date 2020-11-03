@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react';
-import { Tidslinje } from '@namespace/components';
+import { Tidslinje } from '@navikt/dittnav-tidslinje';
 
 const forventninger = [
   'Dersom søknaden din blir godkjent vil du bli bedt om å sende meldekort, og du vil få første utbetaling 2-3 virkedager etter fristen for innsending av meldekort',
