@@ -1,7 +1,7 @@
 {
   "name": "@navikt/dittnav-tidslinje",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "main": "src/",
   "peerDependencies": {
     "@types/jest": "24.0.19",
