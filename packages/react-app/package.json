@@ -2,6 +2,7 @@
   "name": "@namespace/react-app",
   "version": "0.1.2",
   "private": true,
+  "license": "MIT",
   "dependencies": {
     "@navikt/dittnav-tidslinje": "^1.0.1"
   },

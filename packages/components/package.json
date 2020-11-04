@@ -1,8 +1,11 @@
 {
   "name": "@navikt/dittnav-tidslinje",
   "version": "1.0.1",
-  "private": false,
   "main": "src/",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "@types/jest": "24.0.19",
     "@types/node": "12.11.1",
@@ -29,5 +32,6 @@
   },
   "scripts": {
     "build": "lessc --npm-import=\"prefix=~\" src/index.less src/index.css"
-  }
+  },
+  "gitHead": "47afe24aaf490ea5e99509fa48fac3303cf691f2"
 }
