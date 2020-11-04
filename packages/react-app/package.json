@@ -1,9 +1,9 @@
 {
   "name": "@namespace/react-app",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
-    "@navikt/dittnav-tidslinje": "^0.2.0"
+    "@navikt/dittnav-tidslinje": "^1.0.0"
   },
   "scripts": {
     "start": "react-app-rewired start",
@@ -12,11 +12,11 @@
     "eject": "react-scripts eject"
   },
   "peerDependencies": {
-    "customize-cra": "^1.0.0",
     "@types/jest": "24.0.19",
     "@types/node": "12.11.1",
     "@types/react": "16.9.9",
     "@types/react-dom": "16.9.2",
+    "customize-cra": "^1.0.0",
     "less": "^3.12.2",
     "less-loader": "^7.0.1",
     "react": "^16.10.2",
