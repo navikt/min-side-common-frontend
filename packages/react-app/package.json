@@ -1,9 +1,9 @@
 {
   "name": "@namespace/react-app",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "dependencies": {
-    "@navikt/dittnav-tidslinje": "^1.0.0"
+    "@navikt/dittnav-tidslinje": "^1.0.1"
   },
   "scripts": {
     "start": "react-app-rewired start",
