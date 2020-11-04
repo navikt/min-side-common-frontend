@@ -1,10 +1,10 @@
 {
   "name": "@namespace/react-app",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": true,
   "license": "MIT",
   "dependencies": {
-    "@navikt/dittnav-tidslinje": "^1.0.1"
+    "@navikt/dittnav-tidslinje": "^1.0.2"
   },
   "scripts": {
     "start": "react-app-rewired start",
