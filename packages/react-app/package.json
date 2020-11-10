@@ -1,10 +1,10 @@
 {
   "name": "@dittnav/react-app",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": true,
   "license": "MIT",
   "dependencies": {
-    "@navikt/dittnav-tidslinje": "^1.0.2"
+    "@navikt/dittnav-tidslinje": "^1.0.3"
   },
   "scripts": {
     "start": "react-app-rewired start",
