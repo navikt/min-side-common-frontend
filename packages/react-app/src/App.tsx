@@ -22,7 +22,7 @@ const notifikasjoner = [
   },
   {
     produsent: 'grafana-navn-srv-bruker',
-    eventId: '1b6dc4d2-2347-48e4-a05b-0a342555351a',
+    eventId: '1b8dc4d2-2347-48e4-a05b-0a342555351a',
     eventTidspunkt: '2020-10-14T11:00:39.065Z',
     grupperingsId: '1234',
     link: 'dummyLink',
@@ -35,7 +35,7 @@ const notifikasjoner = [
   },
   {
     eventTidspunkt: '2020-10-14T11:00:16.983Z',
-    eventId: 'e7a81e3b-2c37-4cad-862f-673839856685',
+    eventId: 'e7a41e3b-2c37-4cad-862f-673839856685',
     tekst: 'Det mangler et vedlegg i søknaden',
     link: 'test 1 oppgave',
     produsent: 'grafana-navn-srv-bruker',
@@ -45,7 +45,7 @@ const notifikasjoner = [
   },
   {
     produsent: 'grafana-navn-srv-bruker',
-    eventId: '1b6dc4d2-2347-48e4-a05b-0a342555351a',
+    eventId: '1b2dc4d2-2347-48e4-a05b-0a342555351a',
     eventTidspunkt: '2020-10-14T11:00:39.065Z',
     grupperingsId: '1234',
     link: 'dummyLink',
@@ -69,7 +69,7 @@ const notifikasjoner = [
   },
   {
     produsent: 'grafana-navn-srv-bruker',
-    eventId: '1b6dc4d2-2347-48e4-a05b-0a342555351a',
+    eventId: '1b3dc4d2-2347-48e4-a05b-0a342555351a',
     eventTidspunkt: '2020-10-14T11:00:39.065Z',
     grupperingsId: '1234',
     link: 'dummyLink',

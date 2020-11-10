@@ -77,7 +77,7 @@ const Tidslinje = ({ notifikasjoner, forventninger }: TidslinjeProps): ReactElem
         <SekvensUtenIkon key={tekst} tekst={tekst} />
       ))}
       {notifikasjoner.map((notifikasjon: any) => (
-        <SekvensMedIkon notifikasjon={notifikasjon} />
+        <SekvensMedIkon key={notifikasjon.eventId} notifikasjon={notifikasjon} />
       ))}
     </div>
   </Panel>
